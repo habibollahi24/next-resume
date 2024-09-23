@@ -240,6 +240,50 @@ export const DATA = {
     },
 
     {
+      title: 'Rick & Morty',
+      href: 'https://rick-morty-henna.vercel.app/',
+      dates: '',
+      active: true,
+      description: 'Search and filter and bookmark with json-server ',
+      technologies: ['React', 'React-Hooks', 'Tailwind'],
+      links: [
+        // {
+        //   type: 'Website',
+        //   href: 'https://magicui.design',
+        //   icon: <Icons.globe className="size-3" />,
+        // },
+        {
+          type: 'Website',
+          href: 'https://rick-morty-henna.vercel.app/',
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: '/rickmorty.JPG',
+      video: '',
+    },
+    {
+      title: 'Secret Chat',
+      href: 'https://chat-client-sand.vercel.app/',
+      dates: '',
+      active: true,
+      description: 'Secret chat with Room ID ',
+      technologies: ['React', 'Node', 'Socket.IO', 'Tailwind'],
+      links: [
+        // {
+        //   type: 'Website',
+        //   href: 'https://magicui.design',
+        //   icon: <Icons.globe className="size-3" />,
+        // },
+        {
+          type: 'Website',
+          href: 'https://chat-client-sand.vercel.app/',
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: '/chat.JPG',
+      video: '',
+    },
+    {
       title: 'Sticky Note',
       href: 'https://github.com/habibollahi24/sticky-note-app',
       dates: '',

@@ -1,3 +1,4 @@
+import DownloadBtn from '@/components/DownloadBtn';
 import { HackathonCard } from '@/components/hackathon-card';
 import BlurFade from '@/components/magicui/blur-fade';
 import BlurFadeText from '@/components/magicui/blur-fade-text';
@@ -261,6 +262,7 @@ export default function Page() {
                   {DATA.contact.social.Telegram.name}
                 </Link>
               </div>
+              <DownloadBtn />
             </div>
           </BlurFade>
         </div>
